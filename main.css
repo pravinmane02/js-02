@@ -1,0 +1,81 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+
+body,html {
+    background-color: #8197;
+    display: grid;
+    height: 100% ;
+    place-items: center;
+}
+
+h4{
+    font-size: 1.5 rem;
+    margin-bottom: .5 rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+
+.box{
+    width: 600px;
+    background-color: white;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+form input{
+    margin: 10px 0;
+    outline: none;
+    border: 1px solid #8197 ;
+}
+
+form input.box2{
+width: 500px ;
+height: 40px;
+font-size: 1.2rem;
+padding: 0 10px;
+}
+
+form input.button{
+    font-size: 1rem;
+    padding: 12px 20px;
+    background-color: #8197;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+h5{
+    background-color: rgba(238, 15, 141, 0.467);
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 10px 0;
+}
+.feedback{
+    display: none;
+}
+.show{
+    display: block;
+}
+.message-content{
+    color: #de3434;;
+}
